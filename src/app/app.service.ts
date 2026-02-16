@@ -20,7 +20,7 @@ export class AppService {
 
   constructor(private http: HttpClient, private appConfig: AppConfigService) {
     // this.apiUrl = appConfig.apiUrl;
-    this.apiUrl = 'https://backend.agenda-an-locacoes.site';
+    this.apiUrl = 'https://backend.swr-locacoes-agenda.online';
   }
 
   save(calendar: any): Observable<any>{
